@@ -1,0 +1,42 @@
+# Compilação do Maven
+/target/
+
+# Arquivos de configuração locais e senhas
+/src/main/resources/application.properties
+/src/main/resources/application.yml
+*.env
+
+# Logs
+*.log
+logs/
+
+# Configurações de IDEs
+/.idea/
+/*.iml
+/.vscode/
+*.classpath
+*.project
+*.settings/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Arquivos gerados por H2 e outros bancos de dados locais
+*.db
+*.trace.db
+*.log.db
+
+# Outros arquivos do Maven
+.mvn/
+dependency-reduced-pom.xml
+release.properties
+
+# Cache
+/.mvn/wrapper/
