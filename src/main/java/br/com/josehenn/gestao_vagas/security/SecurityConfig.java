@@ -20,7 +20,8 @@ public class SecurityConfig {
                             .requestMatchers("/auth/company").permitAll()
                             .requestMatchers("/company/").permitAll();
                     auth.anyRequest().authenticated();
-                });
+                })
+            .addFilterBefore(null, null);
         return http.build();
     }
 
